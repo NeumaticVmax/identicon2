@@ -1,0 +1,8 @@
+version: "3"
+services:
+  identicon2:
+    build:
+      contest: ../
+      dockerfile: ci/Dockerfile-ci
+    environment:
+      - ENV=PROD
