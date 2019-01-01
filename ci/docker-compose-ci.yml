@@ -2,7 +2,7 @@ version: "3"
 services:
   identicon2:
     build:
-      contest: ../
+      context: ../
       dockerfile: ci/Dockerfile-ci
     environment:
       - ENV=PROD
